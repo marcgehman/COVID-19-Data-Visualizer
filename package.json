@@ -1,0 +1,19 @@
+{
+  "name": "covid-19-data-viz",
+  "version": "1.0.0",
+  "description": "A small electron app to help visualize COVID-19 data using the CovidTracking API",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Gehman",
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^6.1.1",
+    "electron": "^10.1.0"
+  },
+  "dependencies": {
+    "d3-collection": "^1.0.7"
+  }
+}

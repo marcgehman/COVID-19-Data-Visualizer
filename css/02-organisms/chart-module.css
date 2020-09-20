@@ -1,0 +1,7 @@
+:host{
+    height: calc(var(--chart-height) + var(--chart-header-height));
+    width: var(--chart-width);
+
+}
+
+

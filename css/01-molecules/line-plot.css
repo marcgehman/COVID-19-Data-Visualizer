@@ -1,0 +1,14 @@
+:host {
+    background-color: var(--grey-500);
+    color: white;
+    display: block;
+    width: var(--chart-width);
+    height: var(--chart-height);
+}
+
+svg{
+    height: 100%;
+    width: 100%;
+    display:block;
+    line-height: 0;
+}

@@ -1,0 +1,28 @@
+
+#container{
+
+    /* Colors */
+    background-color: var(--grey-200);
+
+    /* Dimensions */ 
+    height: calc(var(--chart-height) + var(--chart-header-height));
+    width: var(--chart-width);
+
+    /* Dimensional Alignment */
+    vertical-align: middle;
+
+    /* Typography */
+    color: var(--grey-400);
+    font-size: 350px;
+    font-weight: bold;
+
+    /* Text Alignment */
+    line-height: var(--chart-height);
+    text-align: center;
+
+}
+
+#container:hover{
+    background-color: var(--grey-300);
+    color: var(--grey-500);
+}

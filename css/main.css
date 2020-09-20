@@ -1,0 +1,14 @@
+/*
+This file is used to call all the imports to compile all the separate
+css files into one file.
+*/
+@import "variables/color-palette.css";
+@import "variables/dimensions.css";
+
+@import "base/base.css";
+
+
+
+
+
+

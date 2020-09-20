@@ -1,0 +1,26 @@
+
+#header {
+    /* Colors */
+    background-color: var(--grey-200);
+
+    /* Dimensions */ 
+    height: var(--chart-header-height);
+    width: var(--chart-width);
+    display: block;
+    
+}
+
+#header remove-chart-button{
+    float: right;
+    height: 100%;
+}
+
+#header modal-chart-menu {
+    float: right;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#header modal-chart-menu > modal-chart-menu-button > button {
+    vertical-align: middle;
+}

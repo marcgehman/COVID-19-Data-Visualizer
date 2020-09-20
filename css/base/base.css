@@ -1,0 +1,15 @@
+body {
+    background-color: var(--grey-100);
+
+}
+
+chart-grid{
+
+    margin : 0px;
+    display : grid;
+    grid-gap : 100px;
+    grid-template-columns: 50% 50%;
+    background-color : var(--grey-100);
+    padding : 0px;
+    justify-self : center;
+}

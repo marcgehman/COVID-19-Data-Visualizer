@@ -1,0 +1,11 @@
+:root{
+
+    --chart-width: 660px;
+    --chart-height: 400px;
+    --chart-header-height: 30px;
+    --chart-margins: 10px 30px 30px 60px;
+    --grid-width: 100%;
+    --grid-height: 100%;
+    width: auto;
+    height: auto;
+}

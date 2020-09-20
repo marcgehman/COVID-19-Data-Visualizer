@@ -1,0 +1,34 @@
+
+ svg{
+    /* Colors */
+    background-color: transparent;
+
+    /* Dimensions */ 
+    --viewBox-width: 100;
+    --viewBox-height: 100;
+    width: 30px;
+    height: var(--chart-header-height);
+
+}
+
+
+ svg > rect{
+    --rect-width: 8;
+    --rect-height: 75;
+    --rect-radius: 6;
+    /* Colors */
+    /* fill: var(--grey-400); */
+    fill: var(--grey-400);
+    /* Dimensions */ 
+
+    /* Dimensional Alignment */
+    /* transform-origin: center; */
+    rx: var(--rect-radius);
+
+}
+svg:hover > rect{
+    fill: var(--red-300);
+   
+}
+
+

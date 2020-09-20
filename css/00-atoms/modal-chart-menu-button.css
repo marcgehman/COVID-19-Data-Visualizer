@@ -1,0 +1,18 @@
+:host {
+    height: 100%;
+    width: 100%;
+
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > button{
+    color: var(--grey-500);
+    background-color: var(--grey-200);
+}
